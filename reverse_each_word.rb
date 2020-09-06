@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
-   ar1 = sentence1.split( ) 
-      ar1.each do 
+   arrr = sentence1.split(  ) 
+      arrr.each do 
         |string| string.reverse << new_arr
         
       end 
