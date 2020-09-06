@@ -8,7 +8,7 @@ end
 
 def reverse_each_word(sentance2)
      
-    array_reverse.collect do 
-      |string| sentance2 reverse!(string)
+    sentance2.collect do 
+      |string| reverse!(string)
     end
   end     
