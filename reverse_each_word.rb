@@ -10,5 +10,5 @@ def reverse_each_word(sentence2)
       ar2.collect do 
       |string| string.reverse
       end
-    ar2.join( "string" )
+    ar2.join( " " )
   end     
