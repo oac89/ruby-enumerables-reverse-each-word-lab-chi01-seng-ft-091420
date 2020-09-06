@@ -2,8 +2,7 @@ def reverse_each_word(sentence1)
    arrr = sentence1.split(  ) 
       arrr.each do 
         |string| string.reverse << new_arr
-        
-      end 
+    end 
 end 
 
 def reverse_each_word(sentance2)
