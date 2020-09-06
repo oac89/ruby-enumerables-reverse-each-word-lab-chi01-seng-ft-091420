@@ -5,7 +5,7 @@ def reverse_each_word(sentence1)
     end 
 end 
 
-def reverse_each_word(sentance2)
+def reverse_each_word(sentence2)
     ar2 = sentence2.split(  )
       ar2.collect do 
       |string| string.reverse
