@@ -8,7 +8,8 @@ end
 def reverse_each_word(sentence2)
     ar2 = sentence2.split(  )
       ar2.collect do 
-      |string| string.reverse.join( )
+      |string| string.reverse
+      arc2.join( )
       
       
     end
