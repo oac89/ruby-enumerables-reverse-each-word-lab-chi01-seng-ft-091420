@@ -2,7 +2,7 @@ def reverse_each_word(sentance1)
     new_arr = []
     array_reverse = [sentance1]
       array_reverse.each do |string|
-        reverse!(sentance1) << new_arr
+        sentance1.reverse! << new_arr
       end 
 end 
 
