@@ -12,3 +12,4 @@ def reverse_each_word(sentance2)
       |string| sentance2 reverse!(string)
     end
   end     
+reverse_each_word(sentance2)
