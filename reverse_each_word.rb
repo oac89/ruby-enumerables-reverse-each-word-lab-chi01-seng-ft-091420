@@ -11,6 +11,6 @@ def reverse_each_word(sentence2)
      ar3 = ar2.collect do 
       |string| string.reverse
       end
-    ar3.join 
+    ar3.join( ) 
   
   end     
