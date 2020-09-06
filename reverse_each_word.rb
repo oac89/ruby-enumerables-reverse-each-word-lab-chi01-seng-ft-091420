@@ -12,5 +12,5 @@ def reverse_each_word(sentence2)
       |string| string.reverse
       end
     ar3.join 
-  end
+  
   end     
